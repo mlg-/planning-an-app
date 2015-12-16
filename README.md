@@ -106,7 +106,7 @@ Now that you have an idea of what pages and features you'll have for starters, i
 
 Balsamiq is one tool you can use to easily create page layouts! There are others too, and you can also just sketch them by hand. They don't need to be beautiful, just show generally where things should fall on the page.
 
-5. Write ONE Feature Test
+##Write ONE Feature Test
 
 ![Testing makes your life easier.](https://media.giphy.com/media/yR4xZagT71AAM/giphy.gif)
 
