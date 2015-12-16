@@ -54,7 +54,7 @@ This is very important: Your ER diagram should represent the current (or very-so
 
 Optionally, you can make a second ER diagram as a "dream ER diagram" to house all your future thoughts and dreams about the database schema. This is fun to have and fun to make, but is of much lower priority than the "reality" diagram and basically just serves as another dump-point for all your ideas, so you can come back to them when the time comes.
 
-3. User Stories and Acceptance Criteria
+##User Stories and Acceptance Criteria
 
 Now that you have a general idea for a core starting point, time to hash out what exactly that means. One common approach is to make a user story and set of acceptance criteria for each feature you plan on developing. You're familiar with these from your last couple of long-form challenges, but a reminder on how to write them:
 
@@ -64,6 +64,7 @@ User Stories:
 
 User stories describe what value a feature brings to a user. The idea is to not go into implementation details at all, just keep it very general and based on what the user wants to accomplish by using the feature. They are structured like this:
 
+```
 As a... <some kind of user of your site>
 I want to... <do something with your site>
 So that... <some user goal is achieved>
@@ -95,8 +96,9 @@ So that I'm able to share my awesome music finds with my friends.
 [ ] If any required fields aren't properly filled out when I try to submit the form, I get a descriptive error message and remain on the page.
 [ ] If I submit a successfully filled-out form, I get redirected to "/songs" and can see my new song on the list.
 These will help guide your test-writing down the line.
+```
 
-4. [Optional] Wireframing
+##[Optional] Wireframing
 
 ![wireframe example with balsamiq](images/wireframeexample.jpg)
 
@@ -109,6 +111,8 @@ Balsamiq is one tool you can use to easily create page layouts! There are others
 ![Testing makes your life easier.](https://media.giphy.com/media/yR4xZagT71AAM/giphy.gif)
 
 You will stress yourself out and lose clear sight of your direction if you go writing all your feature tests at once. Pick out one feature (one user story, one set of acceptance criteria) and start with that. For the first thing, I like to put my user story and acceptance criteria straight into my test:
+
+```
 
 # /spec/features/user_submits_new_song_spec.rb
 
@@ -130,13 +134,16 @@ feature "User submits new song", %(
   # scenarios go here
 
 end
+
+```
+
 This way, I can actually check off my acceptance criteria as we go. Do note that every acceptance criteria should end up being tested but we do not need a separate acceptance criteria for each test. As long as your tests wouldn't pass if an acceptance criteria was not being fulfilled, we're okay.
 
 Now it's time to actually write the tests!
 
 Start by just writing one scenario. You can flesh out what you want the other ones to be by writing them into the file, but leave them empty for now.
 
-6. TDD off into the sunset
+##TDD off into the sunset
 
 Let your tests drive the development of your feature! Early on you'll run into the problem that you don't currently have a table set up in your database, but let the tests tell you when to create that. Once you do hit that point, make unit tests for that model first, especially once we get to ActiveRecord.
 
@@ -146,5 +153,6 @@ Workflow should go:
 "Let's write some unit tests to test-drive my creation of that model."
 *...tdd model via unit tests...*
 "Yay, now I have my model, let's see what the next error is in my feature test"
-7. Pick a new user story, and do it again!
+
+##Pick a new user story, and do it again!
 
