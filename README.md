@@ -56,9 +56,11 @@ Optionally, you can make a second ER diagram as a "dream ER diagram" to house al
 
 3. User Stories and Acceptance Criteria
 
-Now that you have a general idea for a core starting point, time to hash out what exactly that means. One common approach is to make a user story and set of acceptance criteria for each feature you plan on developing.
+Now that you have a general idea for a core starting point, time to hash out what exactly that means. One common approach is to make a user story and set of acceptance criteria for each feature you plan on developing. You're familiar with these from your last couple of long-form challenges, but a reminder on how to write them:
 
 User Stories:
+
+![goat user stories](images/pink_goat.png)
 
 User stories describe what value a feature brings to a user. The idea is to not go into implementation details at all, just keep it very general and based on what the user wants to accomplish by using the feature. They are structured like this:
 
@@ -80,7 +82,7 @@ I want to delete a song off of the list of favorite songs
 So that I'm able remove inappropriate content.
 Acceptance Criteria:
 
-User stories don't go into implementation details - that's what acceptance criteria are for. This is a list of implementation details that you consider necessary for a feature to be considered complete. Usually, each user story has a set of acceptance criteria to further describe it. Example:
+User stories don't go into implementation details - **that's what acceptance criteria are for**. This is a list of implementation details that you consider necessary for a feature to be considered complete. Usually, each user story has a set of acceptance criteria to further describe it. Example:
 
 As a user
 I want to submit links to my favorite songs
@@ -95,6 +97,8 @@ So that I'm able to share my awesome music finds with my friends.
 These will help guide your test-writing down the line.
 
 4. [Optional] Wireframing
+
+![wireframe example with balsamiq](images/wireframeexample.jpg)
 
 Now that you have an idea of what pages and features you'll have for starters, it can be helpful to sketch out what you want the pages to look like. This isn't always necessary - often you'll have a fine time just visualizing it in your head or making up the page layout as you go along. However, some people always like to wireframe, and for particularly complicated pages it can be very useful.
 
