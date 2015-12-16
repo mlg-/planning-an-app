@@ -148,4 +148,3 @@ Workflow should go:
 "Yay, now I have my model, let's see what the next error is in my feature test"
 7. Pick a new user story, and do it again!
 
-Self-explanatory.
