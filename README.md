@@ -45,10 +45,10 @@ Draw lines between the tables that are connected to each other. (I.e, the charac
 
 Possible tools:
 
-[Google Drawings](https://support.google.com/docs/answer/179740?hl=en)
-[Draw.io](https://www.draw.io/) (free and... ok)
-[Lucidchart](https://www.lucidchart.com/) (nicer but not free, 30-day free trial)
-Whiteboard and Photo, or Pen and Paper (my preferred methods)
+*[Google Drawings](https://support.google.com/docs/answer/179740?hl=en)
+*[Draw.io](https://www.draw.io/) (free and... ok)
+*[Lucidchart](https://www.lucidchart.com/) (nicer but not free, 30-day free trial)
+*Whiteboard and Photo, or Pen and Paper (my preferred methods)
 
 This is very important: Your ER diagram should represent the current (or very-soon-to-be) reality of your database schema. This is your do-it-now list. DO NOT go creating tables like crazy just because you thought of them. (I will make you delete them. Seriously.) The ONLY time to create a table in the database is when your current feature test calls for it.
 
@@ -60,7 +60,9 @@ Now that you have a general idea for a core starting point, time to hash out wha
 
 User Stories:
 
+<p align="center">
 ![goat user stories](images/pink_goat.png)
+</p>
 
 User stories describe what value a feature brings to a user. The idea is to not go into implementation details at all, just keep it very general and based on what the user wants to accomplish by using the feature. They are structured like this:
 
