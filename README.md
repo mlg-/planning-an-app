@@ -61,7 +61,7 @@ Now that you have a general idea for a core starting point, time to hash out wha
 User Stories:
 
 <p align="center">
-![goat user stories](images/pink_goat.png)
+<img src="images/pink_goat.png">
 </p>
 
 User stories describe what value a feature brings to a user. The idea is to not go into implementation details at all, just keep it very general and based on what the user wants to accomplish by using the feature. They are structured like this:
