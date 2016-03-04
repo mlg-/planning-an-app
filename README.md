@@ -1,13 +1,17 @@
 #How to Plan and Start Your Project
 *With big thanks to [Christina Koller](http://www.github.com/cmkoller), who wrote the initial version of this talk, which I have largely kept.*
 
-![Planning and doing take practice.](https://media.giphy.com/media/TlK63EPYTCOMhJal7u8/giphy.gif)
+<p align="center">
+  <img alt="Planning and doing take practice" src="https://media.giphy.com/media/TlK63EPYTCOMhJal7u8/giphy.gif">
+</p>
 
 ##Make a "dream list" and a "do it now" list
 
 When planning your app, you're going to have a lot of big crazy awesome ideas - which is super fun. Store those ideas somewhere. Every time you think of a new feature, write it down on that "dream features" list.
 
-![Carlton is getting dreamy about his new Rails app!](https://media.giphy.com/media/P8MxmGnjmytws/giphy.gif)
+<p align="center">
+  <img alt="Carlton is getting dreamy about his new Rails app!" src="https://media.giphy.com/media/P8MxmGnjmytws/giphy.gif">
+</p>
 
 For actually starting, you need to pick a very small, core subset of those features and NOT let yourself develop beyond that until those starting features are all meeting your expectations. For our purposes, this will typically only be one or two models and some basic CRUD functionality for them.
 
@@ -28,7 +32,9 @@ It's important to be familiar with these principles, since many teams that you m
 
 Eliminating waste is most applicable to your situation with building a small app to show your skills in a dramatically compressed sprint of two weeks. You provide enormous value to both yourself in this scenario but also in the future to a company when you know how to drill down what is absolutely necessary to create a feature and do not get mired in the weeds of unnecessary optimizations and gold-plating. For example, if you are trying to create a user interface that allows someone to send an invite to another user to join their "team," the first solution that comes to your mind should not be an auto-filling form that leverages a React.js module to provide instant feedback on the page. It's awesome if you add this later, but the minimum thing you need to do is make a form that takes an email address, and then do some logic to send an invite. Focus on the minimum amount of code to get the job done, and then later flesh out that skeleton with beautiful interface touches and thoughtful integrations.
 
-![Don't be like this.](https://media.giphy.com/media/l738QWncEFlC/giphy.gif)
+<p align="center">
+  <img alt="Don't be like this." src="https://media.giphy.com/media/l738QWncEFlC/giphy.gif">
+</p>
 
 Anecdotally, every cohort there are a few students who get stuck on some nice-to-have feature while working on their app. Maybe they are trying to use a new gem with difficult documentation or they get hung up on a styling issue for their homepage. In any event, these detours become costly when pursued for the better part of a day in a two-week period. You should prioritize what is absolutely needed to make your app do what you say it will do, and nothing more until that is accomplished.
 
@@ -61,7 +67,7 @@ Now that you have a general idea for a core starting point, time to hash out wha
 User Stories:
 
 <p align="center">
-<img src="images/pink_goat.png">
+  <img src="images/pink_goat.png">
 </p>
 
 User stories describe what value a feature brings to a user. The idea is to not go into implementation details at all, just keep it very general and based on what the user wants to accomplish by using the feature. They are structured like this:
@@ -102,7 +108,9 @@ These will help guide your test-writing down the line.
 
 ##[Optional] Wireframing
 
-![wireframe example with balsamiq](images/wireframeexample.jpg)
+<p align="center">
+ <img alt="wireframe example with balsamiq" src="images/wireframeexample.jpg">
+</p>
 
 Now that you have an idea of what pages and features you'll have for starters, it can be helpful to sketch out what you want the pages to look like. This isn't always necessary - often you'll have a fine time just visualizing it in your head or making up the page layout as you go along. However, some people always like to wireframe, and for particularly complicated pages it can be very useful.
 
@@ -110,7 +118,9 @@ Balsamiq is one tool you can use to easily create page layouts! There are others
 
 ##Write ONE Feature Test
 
-![Testing makes your life easier.](https://media.giphy.com/media/yR4xZagT71AAM/giphy.gif)
+<p align="center">
+  <img alt="Testing makes your life easier." src="https://media.giphy.com/media/yR4xZagT71AAM/giphy.gif">
+</p>
 
 You will stress yourself out and lose clear sight of your direction if you go writing all your feature tests at once. Pick out one feature (one user story, one set of acceptance criteria) and start with that. For the first thing, I like to put my user story and acceptance criteria straight into my test:
 
