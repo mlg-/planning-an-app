@@ -50,13 +50,13 @@ Once you have your "dream list" fleshed out with all the ideas that have been fl
 ###Think Lean & A Brief Interlude on Not Getting Lost in the Weeds
 As an aside to the topic of planning a project, one major school of thought in the software industry is that of Lean software development. Lean philosophy has 7 principles:
 
-*Eliminate waste
-*Amplify learning
-*Decide as late as possible
-*Deliver as fast as possible
-*Empower the team
-*Build quality in
-*See the whole
+-Eliminate waste
+-Amplify learning
+-Decide as late as possible
+-Deliver as fast as possible
+-Empower the team
+-Build quality in
+-See the whole
 
 It's important to be familiar with these principles, since many teams that you may work on in the near future will use them to guide development. Lean is particular relevant in startups and small to mid-size companies where bootstrapping and quick iteration are key in time to market and survival.
 
@@ -81,10 +81,10 @@ Draw lines between the tables that are connected to each other. (I.e, the charac
 
 Possible tools:
 
-*1. [Google Drawings](https://support.google.com/docs/answer/179740?hl=en)
-*2. [Draw.io](https://www.draw.io/) (free and... ok)
-*3. [Lucidchart](https://www.lucidchart.com/) (nicer but not free, 30-day free trial)
-*4. Whiteboard and Photo, or Pen and Paper (my preferred methods)
+- [Google Drawings](https://support.google.com/docs/answer/179740?hl=en)
+- [Draw.io](https://www.draw.io/) (free and... ok)
+- [Lucidchart](https://www.lucidchart.com/) (nicer but not free, 30-day free trial)
+- Whiteboard and Photo, or Pen and Paper (my preferred methods)
 
 This is very important: Your ER diagram should represent the current (or very-soon-to-be) reality of your database schema. This is your do-it-now list. DO NOT go creating tables like crazy just because you thought of them. (I will make you delete them. Seriously.) The ONLY time to create a table in the database is when your current feature test calls for it.
 
