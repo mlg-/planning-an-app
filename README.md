@@ -25,6 +25,15 @@ Examples of great side projects I've seen, thought of, or even started working o
 - Instafam -- photos only w/more advanced permissions ("circles" or lists, more like Facebook privacy settings)
 - Dad joke lorem ipsum generator
 - App that helps users find more interesting locations/ideas for dates in their area
+- Burrito-finder: enter your zipcode, find the nearest burrito
+- Simple budgeting/expenses app
+
+### Questions to Think About
+
+- What's a cool single feature widget I wish existed?
+- What's a question I'd like to answer with API data?
+- What's a fun game I'd like to recreate online? (Careful with this, many games are suuuper complex to model, data-wise!)
+- What is a problem somebody in my life has that could be solved with simple software?
 
 ##Make a "dream list" and a "do it now" list
 
@@ -72,10 +81,10 @@ Draw lines between the tables that are connected to each other. (I.e, the charac
 
 Possible tools:
 
-*[Google Drawings](https://support.google.com/docs/answer/179740?hl=en)
-*[Draw.io](https://www.draw.io/) (free and... ok)
-*[Lucidchart](https://www.lucidchart.com/) (nicer but not free, 30-day free trial)
-*Whiteboard and Photo, or Pen and Paper (my preferred methods)
+*1.[Google Drawings](https://support.google.com/docs/answer/179740?hl=en)
+*2.[Draw.io](https://www.draw.io/) (free and... ok)
+*3.[Lucidchart](https://www.lucidchart.com/) (nicer but not free, 30-day free trial)
+*4.Whiteboard and Photo, or Pen and Paper (my preferred methods)
 
 This is very important: Your ER diagram should represent the current (or very-soon-to-be) reality of your database schema. This is your do-it-now list. DO NOT go creating tables like crazy just because you thought of them. (I will make you delete them. Seriously.) The ONLY time to create a table in the database is when your current feature test calls for it.
 
