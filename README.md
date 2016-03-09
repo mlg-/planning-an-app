@@ -5,6 +5,27 @@
   <img alt="Planning and doing take practice" src="https://media.giphy.com/media/TlK63EPYTCOMhJal7u8/giphy.gif">
 </p>
 
+##Coming Up With an Idea
+
+An idea for a side project or other app that you'll make to showcase your skills is a tricky balancing act. You want to choose something that is sufficiently interesting to you to motivate you through the sucky/frustrating parts of application-building that happen to even seasoned pros, but you also want to make your project manageable enough that you are able to execute without becoming very discouraged.
+
+Examples of great side projects I've seen, thought of, or even started working on myself:
+
+- Magnetic poetry app
+- App to analyze the Github "Starred" Repos of fellow Launchers--what is popular in our group?
+- Art viewing app
+- Rock, Paper, Scissors, Spock app
+- Trivia App/Game to play during funtime
+- Phonetics game for new readers
+- App that shows tv episode info scraped from Wikipedia
+- App that shows images from NASA rovers
+- Show birthday messages for a family member--like a living virtual greeting card
+- URL shortening app
+- Personal website/blog
+- Instafam -- photos only w/more advanced permissions ("circles" or lists, more like Facebook privacy settings)
+- Dad joke lorem ipsum generator
+- App that helps users find more interesting locations/ideas for dates in their area
+
 ##Make a "dream list" and a "do it now" list
 
 When planning your app, you're going to have a lot of big crazy awesome ideas - which is super fun. Store those ideas somewhere. Every time you think of a new feature, write it down on that "dream features" list.
